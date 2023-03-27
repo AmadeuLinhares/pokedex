@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto-Book
 
-## Getting Started
+- **NextJs: 13.2.4**
+- **node: 16.15.0**
+- **Yarn: 1.22.19**
 
-First, run the development server:
+## Libraries
+  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+* **@tanstack/react-query (^4.9.0)**
+    * React-query is a library to make cache in front end side. We could take information from cache, update cache without make a new request, invalidate cache
+    and refresh data. So, this improve a lot our performance, and is very usefull and powerfull.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Axios (^0.27.2)**
+    * Lib to make request
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+* **@Stitches (^1.2.8)**
+    * CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.
+    * Themes
+    * Token
+    * Variants
+    * Declarative UI
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+* **zustand (^4.1.1)**
+    * Libary to use as provider. Zustand is very performatic, have selectors by default to prevent side effects, implementation is very simple and friendly 
+    if we compare witth redux or context for example.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* **typescript (^4.8.3)**
+  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features and functionality
 
-## Learn More
+- [x] Home screen
+- [x] Pokemon list
+- [x] Search pokemon by name
+- [x] Empty state
+- [x] Details page
+- [x] Pokemon details api
+- [x] Absolute imports
+- [x] Components
+- [x] Types
+- [x] Front-end cache
+- [x] Performance
+- [x] Theme
 
-To learn more about Next.js, take a look at the following resources:
+  
+## Implementation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The idea of the project was to implement more than as expected, make different, create a possibility the user find pokemons by name, and explore the list of pokemons to identify news and powerfully pokes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For exemplo, if we have a user that dont know a lot about pokemons, this user wont know what search in our sistem. So, implementing a infinity list, the user could find any pokemons and choice one, or have the first contact with this world. 
 
-## Deploy on Vercel
+So, in addition to this list, we have the core functionality too, where the user typ something and if the system find this pokemon.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Step 1 
+    run yarn (to install dependences)
+### Step 2
+    yarn dev
+    
+    
+![aplication image](https://user-images.githubusercontent.com/44333365/199056108-ef2e489c-596c-4f49-bd21-f433180505dc.png)
+ 
+ 
