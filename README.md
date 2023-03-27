@@ -60,6 +60,10 @@ So, in addition to this list, we have the core functionality too, where the user
     yarn dev
     
     
-![aplication image](https://user-images.githubusercontent.com/44333365/199056108-ef2e489c-596c-4f49-bd21-f433180505dc.png)
  
+ <img width="394" alt="Screenshot 2023-03-26 at 22 15 03" src="https://user-images.githubusercontent.com/44333365/227818210-89f7a29b-fabd-4c14-bfc0-820c2a6824f6.png">
+ <img width="389" alt="Screenshot 2023-03-26 at 22 15 20" src="https://user-images.githubusercontent.com/44333365/227818249-002f78a9-a2b5-457a-a52c-84dc7e4a00da.png">
+<img width="392" alt="Screenshot 2023-03-26 at 22 15 29" src="https://user-images.githubusercontent.com/44333365/227818254-d061300c-103c-412a-8161-088c9aa4dcae.png">
+<img width="388" alt="Screenshot 2023-03-26 at 22 15 36" src="https://user-images.githubusercontent.com/44333365/227818255-caef9d12-ab60-481a-8956-f08195ed159b.png">
+
  
